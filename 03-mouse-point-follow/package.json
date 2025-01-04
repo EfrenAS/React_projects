@@ -1,0 +1,29 @@
+{
+  "name": "03-mouse-point-follow",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "standard": "17.1.2",
+    "vite": "^6.0.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard",
+      "standard-jsx"
+    ]
+  }
+}
