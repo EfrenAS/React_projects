@@ -2,7 +2,9 @@ import { lazy, Suspense } from 'react'
 
 import './App.css'
 
-import Route from './components/Route'; // <- Carga estática de un archivo
+/* Carga estática de archivos */
+
+import Route from './components/Route'
 import Router from './components/Router'
 import Page404 from './page/404'
 import Search from './page/Search'
